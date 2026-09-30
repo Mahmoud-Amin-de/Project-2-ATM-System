@@ -306,7 +306,7 @@ double ReadAmountMultipleOfFive()
 
     while ((long long)Amount % 5 != 0)
     {
-        Amount = ReadValidatedDouble("Amount must be a multiple of 5. Enter an amount, multiple of 5's ? ");
+        Amount = ReadValidatedDouble("\nAmount must be a multiple of 5. Enter an amount, multiple of 5's ? ");
     }
 
     return Amount;
@@ -328,7 +328,7 @@ double ReadDepositAmount()
 // [9] Exit) in one place, on top of ReadValidatedShort's numeric check.
 short ReadQuickWithdrawOption()
 {
-    short Choice = ReadValidatedShort("\nChoose what to withdraw from [1] to [9] ? ");
+    short Choice = ReadValidatedShort("\nChoose what do you want to do from [1] to [9] ? ");
 
     while (Choice < 1 || Choice > 9)
     {

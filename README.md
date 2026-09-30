@@ -34,6 +34,19 @@ This project reads and writes `Clients.txt`, the same file used by Project Bank 
 - copy over a `Clients.txt` created by Project Bank 1, or
 - create one manually in the same format: `AccountNumber#//#PinCode#//#Name#//#Phone#//#AccountBalance`
 
+## Screenshots
+
+| | |
+|---|---|
+| **Login Screen** — initial prompt for Account Number + PIN | ![Login Screen](screenshots/login-screen.png) |
+| **Invalid Login** — wrong Account Number/PIN, re-prompting | ![Invalid Login](screenshots/invalid-login.png) |
+| **ATM Main Menu** — the 5 options after a successful login | ![ATM Main Menu](screenshots/atm-main-menu.png) |
+| **Quick Withdraw** — the 8 preset amounts | ![Quick Withdraw Options](screenshots/quick-withdraw-options.png) |
+| **Quick Withdraw** — confirmation and updated balance | ![Quick Withdraw Result](screenshots/quick-withdraw-result.png) |
+| **Normal Withdraw** — rejecting a non-multiple-of-5, then succeeding | ![Normal Withdraw](screenshots/normal-withdraw.png) |
+| **Deposit** — confirmation and updated balance | ![Deposit](screenshots/deposit.png) |
+| **Check Balance** — current balance display | ![Check Balance](screenshots/check-balance.png) |
+
 ## Known limitations
 
 - PIN codes are stored and compared in plain text — fine for a learning project, not for production
